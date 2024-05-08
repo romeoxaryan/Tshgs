@@ -29,7 +29,7 @@ module.exports = {
         );
       }
       await message.reply(`𝖢𝗋𝖾𝖺𝗍𝗂𝗇𝗀 𝗒𝗈𝗎𝗋 𝗂𝗆𝖺𝗀𝗂𝗇𝖺𝗍𝗂𝗈𝗇 𝖻𝖺𝗌𝖾𝖽 𝗈𝗇 𝗇𝗂𝗃𝗂 𝗌𝗍𝗒𝗅𝖾`);
-      const baseUrl = `https://aryan-apis.onrender.com/api/niji?prompt=${encodeURIComponent(prompt)}&key=loveyou`;
+      const baseUrl = `https://aryan-apis.onrender.com/api/niji?prompt=${encodeURIComponent(prompt)}&apikey=aryan`;
 
       const response = await axios.get(baseUrl, {
         responseType: "arraybuffer"
