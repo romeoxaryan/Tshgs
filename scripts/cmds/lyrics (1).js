@@ -48,7 +48,7 @@ module.exports = {
         return;
       }
 
-      const apiUrl = `https://aryan-apis.onrender.com/api/lyrics?songName=${encodeURIComponent(songName)}&key=loveyou`;
+      const apiUrl = `https://aryan-apis.onrender.com/api/lyrics?songName=${encodeURIComponent(songName)}&apikey=aryan`;
       const response = await axios.get(apiUrl);
       const { lyrics, title, artist, image } = response.data;
 
