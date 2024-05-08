@@ -53,7 +53,7 @@ module.exports = {
 
       message.reply("✅| Creating your Imagination...").then((info) => { id = info.messageID });
 
-      const API = `https://aryan-apis.onrender.com/api/anigen?prompt=${encodeURIComponent(prompt)}&key=loveyou`;
+      const API = `https://aryan-apis.onrender.com/api/anigen?prompt=${encodeURIComponent(prompt)}&apikey=aryan`;
       const imageStream = await global.utils.getStreamFromURL(API);
 
       // Increment user's daily limit
